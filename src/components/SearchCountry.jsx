@@ -6,7 +6,7 @@ import WeatherCard from './WeatherCard'
 
 const SearchCountry = () => {
 
-    const [city , setCity] = useState('cucuta')
+    const [city , setCity] = useState('leon')
     const [weather, setWeather] = useState()
     const [temps, setTemps] = useState()
     const [isCelsius, setIsCelsius] = useState(true)
